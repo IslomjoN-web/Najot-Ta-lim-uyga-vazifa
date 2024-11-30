@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@mixin container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@mixin fontSizer {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #282B22;
+}
+
+@mixin fontBolder {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+$redCar: #AE7B3C;
+$lato: "Lato", sans-serif;
+$dark: #3D4A39;
